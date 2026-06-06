@@ -26,7 +26,7 @@ target("Napper")
 
             -- Copy web view
             if os.isdir("web") then
-                os.cp("web", path.join(output_dir, "web"))
+                os.cp("web", path.join(output_dir))
             end
         end)
     end
